@@ -1251,7 +1251,7 @@ define [
 
       themeName = @applicationSettings.get 'activeJQueryUITheme'
       # TODO: this URL stuff should be in model
-      newJQueryUICSSURL = "http://code.jquery.com/ui/1.11.2/themes/#{themeName}/jquery-ui.min.css"
+      newJQueryUICSSURL = "https://code.jquery.com/ui/1.11.2/themes/#{themeName}/jquery-ui.min.css"
       $jQueryUILinkElement = $('#jquery-ui-css')
       $jQueryUILinkElement.remove()
       $jQueryUILinkElement.attr href: newJQueryUICSSURL
